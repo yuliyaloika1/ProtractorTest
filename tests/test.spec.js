@@ -1,4 +1,3 @@
-// epam_careers.spec.js
 describe('Selecting skills on careers page', function seleniumTest() {
 
 
