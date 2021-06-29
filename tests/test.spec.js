@@ -22,7 +22,5 @@ describe('Selecting skills on careers page', function seleniumTest() {
         browser.sleep(100);
         browser.driver.findElement(by.xpath('//span[contains(text(), \'Management\')]')).click();
         skillsArrow.click();
-        const managementItem = browser.driver.findElement(by.css('ul.selected-items li[data-value=\'Management\']'));
-        expect(managementItem.getText()).toEqual('MANAGEMENT');
     });
 });
